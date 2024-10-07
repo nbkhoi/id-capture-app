@@ -1,0 +1,8 @@
+{
+    "environment": "demo",
+    "projectName": "id-capture-app",
+    "staticWebsite": {
+        "bucketName": "demo-id-capture-app-static-website",
+    },
+    "removalPolicy": "destroy"
+}

@@ -1,0 +1,48 @@
+/* src/components/IDCapture.css */
+
+.camera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.camera-view {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.photo {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+canvas {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+}
+
+.has-photo {
+    display: block;
+}
+
+.photo button {
+    margin-top: 10px;
+}
